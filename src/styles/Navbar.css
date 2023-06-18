@@ -1,0 +1,39 @@
+.Container{
+    height : 55px;
+    width : 100%;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #576CBC;
+    line-height: 55px;
+    display: flex;
+    justify-content: space-between;
+    color : whitesmoke;
+}
+
+.Container h1{
+    margin-left: 10px;
+    letter-spacing: 5px;
+}
+
+.Container ul{
+    display: flex;
+    list-style: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.Container li{
+    font-weight: 500;
+    padding : 0 10px;
+    margin : 0 20px;
+    transition : all .5s ease;
+}
+
+.Container li:hover{
+    z-index : 2;
+    transform: scaleX(1.1);
+    color : #0f0;
+    color : black;
+    background-color: rgba(255,255,255,.2);
+    border-radius: 10px;
+}
+

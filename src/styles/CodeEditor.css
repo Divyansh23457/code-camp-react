@@ -1,0 +1,43 @@
+.editor-container {
+    width: 95%;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.text-area {
+    margin: 5px 10px;
+    width: 70%;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 100%;
+    background-color: navy;
+    color: white;
+    padding: 10px;
+}
+
+.output-area {
+    margin: 5px 10px;
+    width: 25%;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 100%;
+    background-color: navy;
+    color: white;
+    padding: 10px;
+}
+
+.compile-btn {
+    margin : 10px 20px;
+    padding : 10px;
+    background-color: greenyellow;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .5s ease;
+}   
+
+.compile-btn:hover{
+    background-color : yellowgreen;
+}
